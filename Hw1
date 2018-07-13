@@ -1,0 +1,18 @@
+Write a java program that prompts the user (using JOptionPane) to enter first name, last name and age for two persons. You need to use separate dialog boxes for each input (i.e., six separate dialog boxes for the inputs). You should store the names in String variables and the ages in int variables.
+
+Your program should compare the two ages and print out the information in a JOptionPane dialog box in the following format (Note that Smith and Doe are the last names in the examples shown below):
+
+First Person: Smith, John (31)
+Second Person: Doe, Mike (35)
+Smith is younger than Doe 
+or
+
+First Person: Doe, John (31)
+Second Person: Smith, Mike (31)
+Doe is of same age as Smith
+or
+
+First Person: Doe, John (35)
+Second Person: Smith, Mike (31)
+Doe is older than Smith
+You should name your program file Hw1.java.
