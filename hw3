@@ -1,0 +1,18 @@
+The electric company charges according to the following rate schedule:
+
+9 cents per kilowatt-hour (kwh) for the first 300 kwh 
+8 cents per kwh for the next 300 kwh (up to 600 kwh) 
+6 cents per kwh for the next 400 kwh (up to 1000 kwh) 
+5 cents per kwh for all electricity used over 1000 kwh
+
+Write a program that would repeatedly read in a customer number (an integer) and the usage for that customer in kwh (an integer). The program should include a method to compute the total charge for each customer. Use the following template for the method:
+
+// takes kwh and calculates the total charge for that customer. 
+
+public static double findCharge(int kwh){
+	// put your code here
+}
+
+The program should terminate when the user enters a sentinel value of -999 for the customer number. The program should print a three-column chart listing the customer number, the kilowatt-hours used, and the total charge for each customer. The program should also compute and print the number of customers, the total kilowatt-hours used, and the total charges. Use a JTextArea component within a JOptionPane dialog box to display the output. You should name the source code file Hw3.java.
+
+Note that you should not use arrays for this assignment.
