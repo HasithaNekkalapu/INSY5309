@@ -1,0 +1,16 @@
+1. Write a class called Rectangle that maintains two attributes to represent the length and width of a rectangle. Provide suitable get, set, and toString methods plus two methods that return the perimeter and area of the rectangle. Include two constructors for this class. One a parameterless constructor that initializes both the length and width to 0, and the second one that takes two parameters to initialize the length and width.
+
+2. Write a java program (a driver application) that tests the above class by providing the users with the following menu options: 
+
+1 - to set the length 
+2 - to set the width 
+3 - to get the length 
+4 - to get the width 
+5 - to get the perimeter 
+6 - to get the area 
+7 - to print the object as string 
+0 - to quit 
+
+Your program should create one Rectangle object at the beginning using the default constructor, and then repeatedly call the appropriate method for that object depending on the user selection from the above menu. Use JOptionPane for all input/output.
+
+You should name the application file Hw4.java and submit it along with the Rectangle.java file.
